@@ -76,11 +76,13 @@ body {
     display: flex;
     background: url("bg.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: black;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    justify-content: right;
+    align-items: center;
 }
 
 .home .home-content .text-1{
@@ -90,6 +92,7 @@ body {
     font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
+    padding-right: 200;
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -111,3 +114,4 @@ body {
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
+
