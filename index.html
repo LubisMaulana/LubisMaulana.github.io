@@ -1,39 +1,55 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Biodata Maulana</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Portofolio Maulana</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <style type="text/css">
+            body{
+                font-family:sans-serif;
+            }
+
+        </style>
     </head>
     
     <body>
         <!-- Navbar -->
-        <div class="div-nb">
-            <!-- <ul class="welcome">Selamat Datang</ul> -->
-            <ul class="ul-nb">
-                <li>
-                    <a href="#home" class="li-nb1">Home</a>
+        <nav class="div-nb">
+            <div class="column left">
+                <span class="text-welcome"></span>
+            </div>
+            
+            <ul class="column right">
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="#home" class="li-nb1">Home</a>
                 </li>
-                <li>
-                    <a href="#about" class="li-nb2">About Me</a>
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="#about" class="li-nb2">About Me</a>
                 </li>
-                <li>
-                    <a href="#skill" class="li-nb3">Skills</a>
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="#skill" class="li-nb3">Skills</a>
                 </li>
-                <li>
-                    <a href="#sertif" class="li-nb4">Home</a>
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="#sertif" class="li-nb4">Sertifikasi</a>
                 </li>
-                <li>
-                    <a href="#contact" class="li-nb">Contact</a>
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="#contact" class="li1-nb">Contact</a>
                 </li>
             </ul>
-        </div>
+        </nav>
+        
 
         <section class="home" id="home">
             <div class="max">
                 <div class="home-content">
-                    <div class="text-1">Hai, my name is</div>
+                    <div class="text-1">Hai, Perkenalkan saya</div>
                     <div class="text-2">Maulana Malik Ibrahim <br>Lubis</div>
-                    <div class="text-3">And I'm a <span class="typing"></span></div>
-                    <a href="https://www.instagram.com/maulanamalikiblbs/" target="_blank">My IG</a>
+                    <div class="text-3">Dan saya adalah <span class="typing"></span></div>
+                    <a style="text-decoration:none" href="https://www.instagram.com/maulanamalikiblbs/" target="_blank">My IG</a>
                 </div>
             </div>
         </section>
@@ -41,16 +57,160 @@
             
         <!-- Content 1 -->
         <section class="about" id="about">
-            <div class>
+            <div class="wadah-about">
+                <h1>
+                    --  About Me  --
+                </h1>
+            </div>
+            <div class="wadah2-about" >
+                <img class="column left" src="Gambar/foto.png" />
+                <div class="column right">
+                    <h3 class="text-atas">
+                        Siapa Saya?
+                    </h3>
+                    <p class="text">
+                        <br>Saya berlatar belakang sebagai mahasiswa SMK jurusan TKJ yang mempelajari 
+                        routing dan switching. Saya melanjutkan pendidikan di telkom university 
+                        dengan mengambil jurusan informatika dengan IPK 3,54 selama 5 semester ini. 
+                        Saya sangat tertarik dengan hal yang berbau angka.
+                    </p>
+                    <a style="text-decoration:none" href="https://drive.google.com/file/d/1newzYMUDIz6In7BXztZYjHeRVayhQeGb/view?usp=sharing" target="_blank">CV Saya</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="skill" id="skill">
+            <div class="wadah-skill">
+                <h1>
+                    --  Skills  --
+                </h1>
+            </div>
+            <div class="wadah2-skill">
+                <img class="column left" src="Gambar/diagram-skill.png" />
+                <div class="column right">
+                    <div class="text-skill1">Saya pernah menjadi<br><span class="d-text"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sertif" id="sertif">
+            <div class="wadah-sertif">
+                <h1>
+                    --  Sertifikasi  --
+                </h1>
+            </div>
+            <div class="wadah2-sertif">
+                <a style="text-decoration:none" href="https://drive.google.com/file/d/12OfanjOYNGLmLHA8D3yEp7rrlQpgktGH/view?usp=sharing">
+                    <main class="grid">
+                        <article>
+                            <img src="Gambar/ccna.png" width="300px" height="300px">
+                            <div class="konten">
+                                <h2>CNNA</h2>
+                                <p>Routing and Switching Essentials</p>
+                            </div>
+                        </article>
+                    </main>
+                </a>
+            </div>
+        </section>
+        
+        <section class="contact" id="contact">
+            <div class="wadah-c">
+                <h1>
+                    --  Contact  --
+                </h1>
+            </div>
+            <div class="wadah2-c">
+                <div class="column left">
+                    <div class="header-c">Message Me</div>
+                    <div class="icon-c">
+                        <a style="text-decoration:none" href="https://wa.me/6282374399749">
+                            <img src="Gambar/wa.png" width="30px" height="30px">
+                            <b>Whatsapp</b>
+                            <p>+62 823 7439 9749</p>
+                        </a>
+                    </div>
+
+                    <div class="icon-c">
+                        <a style="text-decoration:none" href="https://t.me/Maullubis123">
+                            <img src="Gambar/tele.png" width="30px" height="30px">
+                            <b>Telegram</b>
+                            <p>@Maullubis123</p>
+                        </a>
+                    </div>
+
+                    <div class="icon-c">
+                        <a style="text-decoration:none" href="https://www.instagram.com/maulanamalikiblbs/">
+                            <img src="Gambar/ig.png" width="30px" height="30px">
+                            <b>Instagram</b>
+                            <p>@maulanamalikiblbs</p>
+                        </a>
+                    </div>
+
+                    <div class="icon-c">
+                        <a style="text-decoration:none" href="https://mailto:maulanamlkib27@gmail.com">
+                            <img src="Gambar/email.png" width="30px" height="30px">
+                            <b>Email</b>
+                            <p>maulanamlkib27@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="column right">
+                    <div class="header-c">Get in Touch</div>
+                    <div class="git">
+                        <img src="Gambar/org.png" width="50px" height="50px">
+                        <p>Maulana Malik Ibrahim Lubis</p>
+                    </div>
+
+                    <div class="git">
+                        <img src="Gambar/lokasi.png" width="50px" height="50px">
+                        <p>Medan, Indonesia</p>
+                    </div>
+
+                    <div class="git">
+                        <img src="Gambar/kuliah.png" width="50px" height="50px">
+                        <p>Telkom University, Bandung</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- end Content1 -->
 
         <!-- Footer -->
-        <div>
-
-        </div>
+        <footer>
+            <span class="far fa-copyright"></span> 2020 All rights reserved.</span><a href="https://dharmasitepu.github.io/" target="_blank"> Dharma-Systems </a> | <span>Re-Design by <a href="https://wa.me/6282374399749" target="_blank"> LubisMaulana </a>
+        </footer>
         <!-- end Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".d-text", {
+                strings: ["Siswa yang PKL di Indosat", "OC kaderisasi jurusan", "Asisten dosen Logika Matematika"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop:  true
+            })
+        </script>
+
+        <script>
+            var typed = new Typed(".typing", {
+                strings: ["mahasiswa semester 5", "programmer pemula", "pengejar cita-cita"],
+                typeSpeed: 200,
+                backSpeed: 200,
+                loop:  true
+            })
+        </script>
+
+        <script>
+            var typed = new Typed(".text-welcome", {
+                strings: ["Selamat Datang", "Di Personal Portofolio Web", "Maulana Ganteng"],
+                typeSpeed: 200,
+                backSpeed: 200,
+                loop:  true
+            })
+        </script>
     </body>
 </html>
