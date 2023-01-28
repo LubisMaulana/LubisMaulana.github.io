@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>Portofolio Maulana</title>
+        <link rel="shortcut icon" href="Gambar/foto.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
         <style type="text/css">
+            
             body{
                 font-family:sans-serif;
             }
@@ -19,27 +21,37 @@
     <body>
         <!-- Navbar -->
         <nav class="div-nb">
-            <div class="column left">
+            <div class="welcome">
                 <span class="text-welcome"></span>
             </div>
             
-            <ul class="column right">
+            <ul>
                 <li class="li-nb">
                     <a style="text-decoration:none" href="#home" class="li-nb1">Home</a>
                 </li>
                 <li class="li-nb">
-                    <a style="text-decoration:none" href="#about" class="li-nb2">About Me</a>
+                    <a style="text-decoration:none" href="#about" class="li-nb1">About Me</a>
                 </li>
                 <li class="li-nb">
-                    <a style="text-decoration:none" href="#skill" class="li-nb3">Skills</a>
+                    <a style="text-decoration:none" href="#skill" class="li-nb1">Skills</a>
                 </li>
                 <li class="li-nb">
-                    <a style="text-decoration:none" href="#sertif" class="li-nb4">Sertifikasi</a>
+                    <a style="text-decoration:none" href="#sertif" class="li-nb1">Sertifikasi</a>
                 </li>
                 <li class="li-nb">
-                    <a style="text-decoration:none" href="#contact" class="li1-nb">Contact</a>
+                    <a style="text-decoration:none" href="#contact" class="li-nb1">Contact</a>
+                </li>
+                <li class="li-nb">
+                    <a style="text-decoration:none" href="halaman hobby/tulisanku.html" class="li-nb1">My Hobby</a>
                 </li>
             </ul>
+
+            <div class="menu-toggle">
+                <input type="checkbox"></input>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
         
 
@@ -126,7 +138,7 @@
                     <div class="icon-c">
                         <a style="text-decoration:none" href="https://wa.me/6282374399749">
                             <img src="Gambar/wa.png" width="30px" height="30px">
-                            <b>Whatsapp</b>
+                            <b class="ic1">Whatsapp</b>
                             <p>+62 823 7439 9749</p>
                         </a>
                     </div>
@@ -134,7 +146,7 @@
                     <div class="icon-c">
                         <a style="text-decoration:none" href="https://t.me/Maullubis123">
                             <img src="Gambar/tele.png" width="30px" height="30px">
-                            <b>Telegram</b>
+                            <b class="ic2">Telegram</b>
                             <p>@Maullubis123</p>
                         </a>
                     </div>
@@ -142,15 +154,15 @@
                     <div class="icon-c">
                         <a style="text-decoration:none" href="https://www.instagram.com/maulanamalikiblbs/">
                             <img src="Gambar/ig.png" width="30px" height="30px">
-                            <b>Instagram</b>
+                            <b class="ic3">Instagram</b>
                             <p>@maulanamalikiblbs</p>
                         </a>
                     </div>
 
                     <div class="icon-c">
-                        <a style="text-decoration:none" href="https://mailto:maulanamlkib27@gmail.com">
+                        <a style="text-decoration:none" href="mailto:maulanamlkib27@gmail.com">
                             <img src="Gambar/email.png" width="30px" height="30px">
-                            <b>Email</b>
+                            <b class="ic4">Email</b>
                             <p>maulanamlkib27@gmail.com</p>
                         </a>
                     </div>
@@ -212,5 +224,7 @@
                 loop:  true
             })
         </script>
+
+        <script src="script.js"></script>
     </body>
 </html>

@@ -1,0 +1,68 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* width: 100vw; */
+    overflow-x: hidden;
+}
+body {
+    background-color: white;
+}
+
+.content{
+    display:flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1{
+    color: red;
+    font-size: 30px;
+    
+}
+
+.isi{
+    display:flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.isi span{
+    color: red;
+    font-size: 20px;
+}
+
+.penulis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.penulis a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 100;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.penulis a.active, a:hover{
+    transform: scale(1.05);
+}
+
+.penulis p{
+    padding-left: 50px;
+    color: red;
+    font-size: 20px;
+}
