@@ -1,12 +1,15 @@
 *, html{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 html{
     width: 100vw;
     overflow-x: hidden;
 }
 body {
+    width: 100vw;
     background-color: white;
 }
 
@@ -16,9 +19,8 @@ body {
     justify-content: space-around;
     background-color: red;
     width: 100vw;
-    height: 10px;
+    height: 50px;
     /* opacity: 0.5; */
-    padding: 20px;
     position: fixed;
     z-index: 1;
 }
@@ -39,10 +41,10 @@ body {
 }
 
 .div-nb ul{
+    padding-right: 50px;
     justify-content: space-between;
     display: flex;
     width: 70%;
-    padding-right: 50px;
     color: white;
 }
 
@@ -158,10 +160,8 @@ body {
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
     justify-content: left;
     align-items: center;
-    padding-right: 200;
 }
 
 .home-content{
